@@ -5,7 +5,7 @@ const table1Data = {
     A16: 88, A17: 49, A18: 60, A19: 26, A20: 28
 };
 
-
+// This function takes in argument of target table and data and filled in the data row by row.
 function fillTable(tableId, data) {
     const tbody = document.querySelector(`${tableId} tbody`);
     for (const [key, value] of Object.entries(data)) {
